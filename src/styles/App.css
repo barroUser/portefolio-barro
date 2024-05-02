@@ -1,0 +1,95 @@
+.active{
+    background-color: #f9cf26;
+    color: #fff;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: 4px;
+    /* width: 200px; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  margin-bottom: 25px;
+  display: flex;
+
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#accueil-section{
+  margin: 70px 0px 20px 0;
+  padding-bottom: 60px;
+}
+
+#service-container{
+  background-color: white;
+  color: #282c34;
+  margin: 40px 0px 20px 0;
+  padding-bottom: 100px;
+}
+.apropos-section{
+  background-color: white;
+  color: #282c34;
+  margin: 70px 0px 0px 0;
+  padding-bottom: 100px;
+}
+.competence-section{
+  background-color: #282c34;
+  color: white;
+  margin: 40px 0px 0px 0;
+  padding-bottom: 100px;
+}
+
+.App-footer{
+  margin: auto;
+}
+
+span{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.br{
+  height: 18px;
+}
+h1{
+  font-size: 70px;
+}
+.info{
+  font-size: 13px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#navlien {
+  transition: color 0.3s ease;
+  cursor: pointer;
+  pointer-events: all;
+}
+#navlien:hover{
+  background-color: #f9cf26;
+  border-radius: 10px;  
+  border: #ffefae solid 1px ;  
+
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
