@@ -13,7 +13,7 @@ const Competence = () => {
     <div className='competence-section'>
         <div className='container'>
             <div className='text-center fs-2 fw-semibold'>Mes Compétences</div>
-            <div className='info mb-2'>* Il s'agit des langages que j'ai déjà utilisés pour des projets antérieurs</div>
+            <div className='info mb-2'>* Il s'agit des langages que j'ai déjà utilisés dans des projets antérieurs</div>
             <div className='row g-3 text-center'>
             <div class="col">
                 <img src={Css} width={200} alt="logo css..."/>

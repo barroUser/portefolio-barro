@@ -11,12 +11,8 @@ const Apropos = () => {
             <div className="card-body">
               <div className=''card-text>
               <p>Titulaire d'une licence en science du langage, j'ai décidé de me consacrer dans le développement web et mobile avec l'école inclusive Simplon. Ce qui m'a permis d'être certifié développeur fullstack web. </p>
-              <p>
-                En tant que jeune passionné, motivé par les nouvelles technologies, je suis toujours à la recherche de nouvelle opportunité pour m'exprimer dans mon domaine de prédilection.
-                J'ai acquis plusieurs compétences en programmation web et mobile après plusieurs mois passés
-                à la fabrique Simplon ainsi qu'en autodidacte.
-              </p>
-              <p>Bien que je ne me sois pas spécialisé dans le developpement mobile, j'ai des bases solides pour méner à bien un projet de cette envergure. Toutefois, je suis en constante évolution.</p>
+              <p>En tant que jeune passionné, motivé par les nouvelles technologies, je suis toujours à la recherche de nouvelle opportunité pour m'exprimer dans mon domaine de prédilection.</p>
+              <p>Au cours, des mes récentes expériences en entreprise, j'ai acquis des bases solides pour méner à bien des projets. Toutefois, je suis en constante évolution.</p>
               <p>Je serais très heureux de travailler avec vous sur des nouveaux projets innovants.</p>
               </div>
             </div>
