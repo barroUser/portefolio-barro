@@ -6,10 +6,10 @@ import { IoIosMail } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className='container'>
+    <div className='container' id='contact-section'>
       <div className='text-center fs-1 fw-semibold mt-2 mb-4'>Contactez-moi</div>
-      <div className='d-flex'>
-        <div className='col-sm-10 lg-2'>
+      <div className='row'>
+        <div className='col-sm-12 col-md-6 col-lg-6'>
           <div className='text-start'>
             <h3>Barro Aboubakar</h3>
             <h6>Développeur fullstack web</h6>
@@ -19,15 +19,12 @@ const Contact = () => {
             <h6>Tel: +225 0506790055</h6>
             <div className='br'></div>
             <h6>Abidjan, Adjamé</h6>
-            <div className='br'></div>
-            <small className='info'>*N'hésitez pas à me contacter pour discuter de vos besoins en matière de développement web.</small>
           </div>
         </div>
 
-        <div className='col-sm-6'>
-          <h4 className=''>Réseaux sociaux</h4>
-          <div className='d-flex'>
-            <div className='column'>
+        <div className='col-sm-12 col-md-6 col-lg-6'>
+          <h4 className='text-center'>Réseaux sociaux</h4>
+          <div className='d-flex text-center'>
             <div className='col'>
               <Link to="https://aboubakarbarro23@gmail.com">
                 <IoIosMail />
@@ -52,10 +49,11 @@ const Contact = () => {
               </Link>
               <span>Whatsapp</span>
             </div>
-            </div>
-          </div>
         </div>
-
+        </div>
+        <div className='col-12'>
+            <small className='info'>*N'hésitez pas à me contacter pour discuter de vos besoins en matière de développement web.</small>
+        </div>
       </div>
     </div>
   )

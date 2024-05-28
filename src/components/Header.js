@@ -10,8 +10,7 @@ export const Header = () => {
 
   return (
     <div>
-      {/* <nav className="navbar navbar-expand-lg bg-light"> */}
-      <div className="container-fluid">
+      <div className="container-fluid" id="header">
         <nav className="navbar navbar-expand-lg">
           <Link href="#" className="navbar-brand fw-semibold">
             Brico-Codeur
@@ -57,22 +56,6 @@ export const Header = () => {
                 </Link>
                 <Link
                   activeClass="active"
-                  to="service"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                  isDynamic={true}
-                  className="nav-link text-black align-items-center me-4"
-                  id="navlien"
-                >
-                  <li class="nav-item">
-
-                    Projets
-                  </li>
-                </Link>
-                <Link
-                  activeClass="active"
                   to="competence"
                   spy={true}
                   smooth={true}
@@ -87,6 +70,23 @@ export const Header = () => {
                     Compétences
                   </li>
                 </Link>
+                <Link
+                  activeClass="active"
+                  to="service"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  isDynamic={true}
+                  className="nav-link text-black align-items-center me-4"
+                  id="navlien"
+                >
+                  <li class="nav-item">
+
+                    Projets
+                  </li>
+                </Link>
+
                 <Link
                   activeClass="active"
                   to="contact"
@@ -114,13 +114,12 @@ export const Header = () => {
                     Télécharger mon CV
                   </a>
                 </li>
-                
+
               </ul>
             </div>
           </div>
         </nav>
       </div>
-      {/* </nav> */}
     </div>
   );
 };

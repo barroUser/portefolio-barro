@@ -27,15 +27,28 @@
   color: white;
 }
 
+#header{
+  background-color: #fff;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  transition: cubic-bezier(.075,.82,.165,1);
+  z-index: 1;
+}
+
 #accueil-section{
   margin: 70px 0px 20px 0;
   padding-bottom: 60px;
 }
 
+#contact-section{
+  margin: 70px 0px 20px 0;
+  padding-bottom: 60px;
+}
 #service-container{
   background-color: white;
   color: #282c34;
-  margin: 40px 0px 20px 0;
+  margin: 50px 0px 20px 0;
   padding-bottom: 100px;
 }
 .apropos-section{
