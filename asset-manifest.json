@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portefolio-barro/static/css/main.f07a5889.css",
-    "main.js": "/portefolio-barro/static/js/main.e71eafa1.js",
+    "main.css": "/portefolio-barro/static/css/main.6efafedb.css",
+    "main.js": "/portefolio-barro/static/js/main.b83bf208.js",
     "static/media/barro2.JPG": "/portefolio-barro/static/media/barro2.df02dc89386baaae253f.JPG",
     "static/media/barro_cv.pdf": "/portefolio-barro/static/media/barro_cv.7f584cf86b7efba2a0ef.pdf",
     "static/media/wordpress.png": "/portefolio-barro/static/media/wordpress.8be7749da6c714d49c9d.png",
@@ -13,11 +13,11 @@
     "static/media/css.png": "/portefolio-barro/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portefolio-barro/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portefolio-barro/index.html",
-    "main.f07a5889.css.map": "/portefolio-barro/static/css/main.f07a5889.css.map",
-    "main.e71eafa1.js.map": "/portefolio-barro/static/js/main.e71eafa1.js.map"
+    "main.6efafedb.css.map": "/portefolio-barro/static/css/main.6efafedb.css.map",
+    "main.b83bf208.js.map": "/portefolio-barro/static/js/main.b83bf208.js.map"
   },
   "entrypoints": [
-    "static/css/main.f07a5889.css",
-    "static/js/main.e71eafa1.js"
+    "static/css/main.6efafedb.css",
+    "static/js/main.b83bf208.js"
   ]
 }
