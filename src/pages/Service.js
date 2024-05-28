@@ -25,7 +25,7 @@ const Service = () => {
               <img src="..." class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Djassaly</h5>
-                <p class="card-text">Il s'agit d'un site de type E-commerce qui ressemble plusieurs vendeurs et clients.</p>
+                <p class="card-text">Il s'agit d'un site de type E-commerce qui rassemble plusieurs vendeurs et clients.</p>
               </div>
               {/* <div class="card-footer text-center">
                 <a href='#' class="text-muted btn btn-warning"><FaEye/> voir</a>
