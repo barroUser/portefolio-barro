@@ -64,7 +64,7 @@ const Accueil = () => {
                             >
                                 <Link 
                                     to='contact' 
-                                    className="button button-primary"
+                                    className="button button-primary my-2"
                                     smooth={true}
                                     duration={500}
                                     style={{
